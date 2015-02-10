@@ -1,0 +1,67 @@
+
+
+ul.yiiPager
+{
+        font-size:13px;
+        border:0;
+        padding:10px;
+        line-height:100%;
+        display:inline;
+}
+
+ul.yiiPager li
+{
+        display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+        border:solid 1px #9aafe5;
+        border-radius:4px;
+        font-weight:bold;
+        color:#0e509e;
+        padding:5px 10px;
+        text-decoration:none;
+}
+
+ul.yiiPager .first a,
+ul.yiiPager .last a,ul.yiiPager .page a
+{       
+   
+    background-color: #fff;
+    color: #428bca;
+    border-color: #357ebd;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 4px;
+
+}
+
+ul.yiiPager a:hover
+{
+        color: #fff;
+        background-color: #428bca;
+}
+
+ul.yiiPager .selected a
+{
+        background-color:#999999;
+        color:#FFFFFF;
+        font-weight:bold;
+}
+
+ul.yiiPager .hidden a
+{
+        border:solid 1px #DEDEDE;
+        color:#888888;
+}
+
+.next,.previous{display:none!important;}
+.first,.last {display:inline;}

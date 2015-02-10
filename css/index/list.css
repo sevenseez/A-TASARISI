@@ -1,0 +1,46 @@
+#main_list { 
+                    position:absolute;
+		    margin-left:9;
+                        bottom:40px;
+                        z-index:1;
+                        left:120px;
+			} 
+
+#the_list li{
+
+margin:10px 40px 30px 30px;
+padding:10px;
+
+
+width:300px;
+height:100px;
+
+border:black solid 3px;
+border-radius:15px;
+
+font-size:25px;
+font-family:font-awesome;
+text-align:center;
+
+display:inline-block;
+list-style:none;
+
+color:white; 
+background:#5cb85c;
+
+vertical-align:top;   /** overflow text inline block baseline sorun c�kart�yor. */ 
+-webkit-user-select: none;    /** textlerin seçilememesi için */
+-moz-user-select: none;
+}
+
+		 
+#the_list li:hover  ,#the_list li:hover .aciklama{ 			/* list iteminin �st�ne geldi�inde */ 
+				background-color:grey;
+				color:white;
+				cursor:pointer;}
+
+
+#the_list i {  float:left; margin-left:20px; color:black;}
+
+
+

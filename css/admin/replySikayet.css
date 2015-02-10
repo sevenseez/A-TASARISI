@@ -1,0 +1,30 @@
+
+#reply_screen .modal-content{
+    
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid gray;
+    border-radius:10px;
+    display:block;
+}
+
+#reply_screen .modal-dialog { margin-top:5%;}
+
+
+#reply_screen form{
+padding: 50px;
+padding-bottom:10px;
+}
+
+.redactor_box {margin-bottom:20px; 
+               margin-left:-80px;
+               width:450px; }
+
+.required {display:none;}
+
+.btn-dilek,.btn-reddet {margin-right:30px;}
+
+#reply_screen a.close { margin-top:-30px; }
+
+#reddetMsg .redactor_box{margin-left:-100px!important;}
+
+.btn-reddet {margin-left:50px;}

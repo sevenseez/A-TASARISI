@@ -1,0 +1,17 @@
+.alert {display:none;}
+
+.profil-container {padding-top: 10px; 
+                   padding-left:30px; 
+                   margin-left:250px; 
+                   background-color:#fff;
+                   overflow:hidden;}
+
+.setting-container {padding-top: 10px; padding-left:30px; margin-left:250px; background-color:#fff; overflow:hidden;}
+
+.setting-container form {margin-left:20px;}
+
+.setting-container h3{margin-bottom:20px; margin-top:0px;}
+.setting-container .page-header {margin-top:30px;}
+
+
+

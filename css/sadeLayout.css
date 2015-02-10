@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+
+.sadeFooter {
+    
+background-color:#999999 !important;
+border-top:5px #d4d4d4 groove;
+height:50px;
+position:absolute;
+bottom:0px;
+margin-top:50px;
+}
+
+.sadeFooter  p {  display:inline-block; 
+            float: left; 
+            margin-left:10%;    
+            font-family:Raleway;
+            font-size:16px;
+            font-weight: bold;
+           }
+.sadeFooter  a {color:#1b1b1b;}
+
+.sadeFooter  a:hover {color:#fff; cursor:pointer;}
+
+span {font-weight:normal; }

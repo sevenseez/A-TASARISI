@@ -1,0 +1,58 @@
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+#details_screen .modal-dialog{ width:70%;  }
+
+#details_screen .modal-content{
+    
+    margin-left:-2%;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid gray;
+    border-radius:10px;
+    padding: 0px 20px; 
+    display:block;
+}
+
+.details_box div{ margin-left:-1%; margin-bottom:1%;}
+
+.details_box {
+    margin:10px 40px 15px 40px;
+    padding:10px;
+}
+
+.details_box h4 {               
+    float:left; 
+    color:#7792A6;
+    font-style:oblique;
+    overflow:visible;
+    margin-bottom:5px;
+}
+
+hr { border:1px solid black; }
+
+.redactor_box {margin-bottom:20px; 
+               margin-left:50px!important;
+               width:660px; 
+               border-radius: 3px;}
+
+#notLabel {margin-left:40%; 
+           margin-top:10px; 
+           margin-bottom:20px;}
+
+#details_baslik {   
+                    font:30px bold; 
+                    text-align:center;
+                }
+#details_screen a.close { margin-top:-30px; font-size:50px;}
+
+#details_baslik i{ margin-right:10px;}
+
+
+#sendpdf { width:150px; margin-left:45%;}
+
+#sendpdf:hover {background-color:white; color:black; }
+
+.alert {display:none; margin-top:15px; margin-bottom:-5px; }
+
+.alert span {font-size:25px;}

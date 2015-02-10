@@ -1,0 +1,87 @@
+/*----------------------------------------------
+css settings for HTML div exactCenter 
+------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+span .required{display:inline-block; float:left;}
+
+a { color:black;}
+
+#istek_screen .modal-dialog{ width:900px;  }
+
+#istek_screen .modal-content{
+    left:15%;
+    top:5%;
+    margin-left: -260px;
+    font-family: 'Raleway', sans-serif;
+    display:block;
+    border: 2px solid gray;
+    border-radius:10px;
+    padding: 10px 50px; 
+}
+
+
+.form_box {
+
+    border:1px solid black;
+    margin:30px 30px 40px 50px;
+    padding:10px;
+    min-height:500px!important;
+    width:430px;
+    display:inline-block;
+    float:left;
+    white-space: nowrap;
+ 
+}
+
+.form_box   > .form-group   div {margin-left:20px; }
+div > input , div > select  , div > label { margin-bottom:5px; 
+  } 
+ 
+  .form_box .control-label {text-align:left!important; margin-left:10px;}
+
+
+.form_box h4 {                  float:left; 
+                                color:#7792A6;
+                                font-style:oblique;
+                                overflow:visible;
+                                margin-bottom:5px;
+}
+
+hr { border:1px solid black; }
+
+#sendit:hover {background-color:white; color:black;}
+
+#sendit {margin-left:-12px;}
+
+#istek_baslik { font:30px bold; 
+                float:center;
+                margin-top:20px;}
+
+#istek_baslik i{ margin-right:10px;}
+
+a.close {font-size:40px;}
+
+.outside  {white-space: nowrap;}
+
+.alert:not(.info) {display:none; margin-top:15px; margin-bottom:-5px; }
+
+.alert span:not(.alert-text){font-size:25px;}
+
+.info {font:15px Tahoma; 
+      text-align:left;
+      margin:10px 5px 10px 5px;
+      width:95%;
+      color:black;
+      border-radius: 10px;
+}
+.info li {margin-top:5px; margin-left:5px; }
+
+.double-input label {margin-right:50px!important;}
+.double-input {float:left;}
+.double-input div{margin:8px!important; padding:0;}
+.marka-input label{ margin-right:52px!important;}
+.double-input span.required {margin-left:5px;}
+
+.left-error {margin-left:-100px!important;}

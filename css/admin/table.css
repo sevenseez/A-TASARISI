@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+
+.panel-body form {margin-right:10px;}
+
+.table_cell input {  background: rgba(255, 255, 255, 0); border:none;}
+
+.table-buttons .form-group { display:inline-block;}
+
+.table-buttons > input:first-child { margin-right:5px;}
+
+.forward-table { margin-left:10px;}
+
+.grid-view { overflow:visible; width: 103%; padding:10px; display:inline-block; margin-top:-10px; margin-left:-20px;}
+#table_grid {font-size:12px!important;}
+
+.grid-view table th a{
+    text-decoration: none!important; color:#373737;
+   }
+.grid-view table td {
+    max-width:250px;
+    word-break:normal;
+    overflow:hidden;
+}
+//.grid-view table td { Bu Ve üstteki tablo hücreleri ayarları içi
+//  max-width: 150px; Overflow u saklar. Üssteki ise width i aşan 
+//  overflow: hidden; kelimeleri aşağı satıra atar 
+// }
+.grid-view tr th { text-align:center;}
+
+#search_box {
+float:right; 
+}
+
+#edit_dialog ,#insert_dialog{ margin-top:3%; left:4%;}
+
+.markaContent #edit_dialog, .birimContent  #edit_dialog,
+.birimContent #insert_dialog , .markaContent #insert_dialog { margin-top:10%;}
+
+#edit_content,#insert_content{
+position: absolute; 
+font-family: 'Raleway', sans-serif;
+display:block;
+border: 2px solid gray;
+border-radius:10px;
+padding: 10px;
+}
+
+form{
+min-width: 300px;
+padding: 50px;
+background-color: white;
+padding-bottom:10px;
+}
+
+.form-group div { margin-left:100px;}
+.form-group label { white-space:nowrap;}
+
+.edit_buttons,.insert_buttons{ margin-left:150px!important; margin-top:20px; }
+.edit_buttons input ,.insert_buttons input { margin-left:50px; }
+
+.close {font-size:30px;}
+
+
+body.wait *, body.wait
+{
+    cursor: wait !important;
+}
+
+
+textarea {resize:none;}
+
+.grey ,.even { background-color:#E6E6E6;}
+
+.overlay {
+    background-color: rgba(1, 1, 1, 0.7);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index:99999;
+}
+
+.mstrk {margin-left:8px; font-size:13px;}

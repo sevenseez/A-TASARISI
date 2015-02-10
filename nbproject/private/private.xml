@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="3">
+        <file>
+            <url>js/admin/index.js</url>
+            <bookmark id="2">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>protected/views/site/istek.php</url>
+            <bookmark id="3">
+                <name/>
+                <line>135</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>protected/views/admin/markalar/markalar_edit.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>47</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/xampp/htdocs/ProjectNew/protected/views/takip/index.php</file>
+            <file>file:/D:/xampp/htdocs/ProjectNew/protected/controllers/tableActions/OnayVer.php</file>
+            <file>file:/D:/xampp/htdocs/ProjectNew/protected/controllers/TakipController.php</file>
+            <file>file:/D:/xampp/htdocs/ProjectNew/protected/models/Notify.php</file>
+            <file>file:/D:/xampp/htdocs/ProjectNew/protected/views/site/istek.php</file>
+            <file>file:/D:/xampp/htdocs/ProjectNew/protected/views/layouts/nav.php</file>
+            <file>file:/D:/xampp/htdocs/ProjectNew/protected/controllers/SiteController.php</file>
+            <file>file:/D:/xampp/htdocs/ProjectNew/css/takip.css</file>
+        </group>
+    </open-files>
+</project-private>
