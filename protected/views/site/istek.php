@@ -1,5 +1,4 @@
-
-<link rel="stylesheet"  href="/ProjectNew/css/index/istek_screen.css" />
+<link rel="stylesheet"  href="<?php echo BaseUrl;?>/css/index/istek_screen.css" />
 ﻿	<?php $this->beginWidget(
             'booster.widgets.TbModal',
             array('id' => 'istek_screen',
@@ -220,5 +219,5 @@
                             
                             
                             </style>
- <script src="/ProjectNew/js/data-hide.js"></script>   
+ <script src="<?php echo BaseUrl;?>/js/data-hide.js"></script>   
  <style></style>

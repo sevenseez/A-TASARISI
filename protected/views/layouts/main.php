@@ -11,7 +11,7 @@
 	<meta http-equiv="Expires" content="0" />
 	
 	
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
+	<link rel="stylesheet" href="<?php echo BaseUrl;?>/css/main.css">
 </head>
 <body>
 <div id="wrap_main">
@@ -25,7 +25,7 @@
 	<footer class="index_footer">
             <div id="footer_info">
                 <div class="footer_links">
-                    <a href="/ProjectNew/site/dilekSikayet">Bize Ulaşın</a>
+                    <a href="<?php echo BaseUrl;?>/dilekSikayet">Bize Ulaşın</a>
                     <a href="http://www.kocaeli.edu.tr/">Kocaeli Üniversitesi</a>
                     <a href="http://bilgisayar.kocaeli.edu.tr/">Bilgisayar Mühendisliği</a>
                     

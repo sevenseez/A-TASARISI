@@ -26,7 +26,7 @@ $criteria = new CDbCriteria;
 $n_criteria = new CDbCriteria;
 
    foreach ($news as $item) {
-       echo '<ul><a class="nf_span" href="/ProjectNew/tables/'.$item->table_type.'">'.$item->table_type.'</a> tablosunda ';
+       echo '<ul><a class="nf_span" href="'.BaseUrl.'/tables/'.$item->table_type.'">'.$item->table_type.'</a> tablosunda ';
              
         $sql2 = "select * from (select * from notify  WHERE user_id='$userID' AND id>'$start' AND is_read='0' "
         . "AND subject_id='$subject' "

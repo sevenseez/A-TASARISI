@@ -3,18 +3,19 @@ $(document).ready(function(){
     notificate_first();
     setInterval(notificate, 60000);
 });
-
+ var path = $yii.urls.base;
 function notificate() {
+       
         $.ajax({
             type : 'POST',
-            url :'/ProjectNew/admin/getNotify/',
+            url : path+'/admin/getNotify/',
             dataType : 'json',
             success: function(response){
             
             var msg_count = $('#all_msg').html();
             if(response.length>msg_count){
               //display a sound 
-              var audio = new Audio('/ProjectNew/sound/notification.mp3');
+              var audio = new Audio(path+'/sound/notification.mp3');
               audio.play();
             }
             
@@ -38,7 +39,7 @@ function notificate() {
     function notificate_first() {
         $.ajax({
             type : 'POST',
-            url :'/ProjectNew/admin/getNotify/',
+            url :path+'admin/getNotify/',
             dataType : 'json',
             success: function(response){
             

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/ProjectNew/css/index/profil.css">
+<link rel="stylesheet" href="<?php echo BaseUrl;?>/css/index/profil.css">
 
 <div class="setting-container">
   <h1 class="page-header">Ayarlar</h1>
@@ -83,7 +83,7 @@
   </div>
 </div>
     
-    <script src="/ProjectNew/js/data-hide.js"></script>
+    <script src="<?php echo BaseUrl;?>/js/data-hide.js"></script>
     <script type="text/javascript">
 // this script for collecting the form data and pass to the controller action and doing the on success validations
 function send(){

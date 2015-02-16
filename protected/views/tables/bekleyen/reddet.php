@@ -1,4 +1,4 @@
-  <link rel="stylesheet" href="/ProjectNew/css/admin/replySikayet.css"/>
+  <link rel="stylesheet" href="<?php BaseUrl;?>/css/admin/replySikayet.css"/>
  <?php
        
 $this->beginWidget(

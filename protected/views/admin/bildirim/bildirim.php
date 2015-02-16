@@ -54,4 +54,4 @@
         </div>
 
     </div>
-    <script src="/ProjectNew/js/admin/change_active.js"> </script>
+    <script src="<?php echo BaseUrl;?>/js/admin/change_active.js"> </script>

@@ -28,7 +28,7 @@ $news = $notify->findAllBySql($sql);
 foreach ($news as $item) {
       if($item->table_type=='Dilek') $actionName = 'admin/dilek';
       else $actionName = 'tables/'.$item->table_type;
-       echo '<ul><a class="nf_span" href="/ProjectNew/'.$actionName.'">'.$item->table_type.'</a> tablosunda ';
+       echo '<ul><a class="nf_span" href="/'.BaseUrl.'/'.$actionName.'">'.$item->table_type.'</a> tablosunda ';
        
        $sql2 = "select * from (select * from notify  WHERE user_id='$userID' AND id>'$start' AND is_read='0' "
         . "AND subject_id='$subject' AND table_type='$item->table_type' LIMIT $numberRows)as t GROUP BY activity_type DESC";

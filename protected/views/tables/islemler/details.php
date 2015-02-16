@@ -141,5 +141,5 @@ $this->beginWidget(
     <?php $this->endWidget(); 
     $this->endWidget(); ?>
 
-<script src="/ProjectNew/js/admin/waitajax.js"></script>
-<script src="/ProjectNew/js/data-hide.js"></script>               
+<script src="<?php echo BaseUrl;?>/js/admin/waitajax.js"></script>
+<script src="<?php echo BaseUrl;?>/js/data-hide.js"></script>               

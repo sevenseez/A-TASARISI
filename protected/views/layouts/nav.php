@@ -1,5 +1,4 @@
 <body>
-
     <div id="wrapper">
 
         <!-- Navigation -->
@@ -11,7 +10,7 @@
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
-                <li><a href="/ProjectNew/tables/islemler" title="İşlemlere Git">
+                <li><a href="<?php echo BaseUrl;?>/tables/islemler" title="İşlemlere Git">
                         <div class="fa-stack">
                         <i class="fa fa-stack-2x fa-base fa-info"></i>
                         </div>
@@ -44,7 +43,7 @@
                                             )); 
                                     ?> 
                         <li>
-                            <a class="text-center" href="/ProjectNew/admin/bildirim">
+                            <a class="text-center" href="<?php echo BaseUrl;?>/admin/bildirim">
                                 <strong>Bütün Bildirimleri Oku</strong>
                                 <i class="fa fa-angle-right"></i>
                             </a>
@@ -61,9 +60,9 @@
                         <div class="fa-stack ">  <i class="fa fa-user fa-stack-2x fa-base fa-fw"></div></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="/ProjectNew/admin/profil"><i class="fa fa-angle-double-right fa-fw"></i> Profil</a>
+                        <li><a href="<?php echo BaseUrl;?>/admin/profil"><i class="fa fa-angle-double-right fa-fw"></i> Profil</a>
                         </li>
-                        <li><a href="/ProjectNew/admin/logout"><i class="fa fa-sign-out fa-fw"></i> Çıkış Yap</a>
+                        <li><a href="<?php echo BaseUrl;?>/admin/logout"><i class="fa fa-sign-out fa-fw"></i> Çıkış Yap</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -81,33 +80,33 @@
                         </li>
                    
                         <li>
-                            <a href="/ProjectNew/admin/bildirim"><i class="fa fa-info-circle fa-fw"></i> Bildirimler</a>
+                            <a href="<?php echo BaseUrl;?>/admin/bildirim"><i class="fa fa-info-circle fa-fw"></i> Bildirimler</a>
                         </li>
                    
                         <li>
                             <a href="#"><i class="fa fa-sitemap fa-fw"></i> Veri-Tabanı Yönetimi<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/ProjectNew/tables/birimler">Birimler</a>
+                                    <a href="<?php echo BaseUrl;?>/tables/birimler">Birimler</a>
                                 </li>
                                 <li>
-                                    <a href="/ProjectNew/tables/cihazlar">Cihazlar</a>
+                                    <a href="<?php echo BaseUrl;?>/tables/cihazlar">Cihazlar</a>
                                 </li>
                                 <li>
-                                    <a href="/ProjectNew/tables/islemler">İşlemler</a>
+                                    <a href="<?php echo BaseUrl;?>/tables/islemler">İşlemler</a>
                                    
                                 </li>
                                 <li>
-                                    <a href="/ProjectNew/tables/markalar"> Markalar</a>
+                                    <a href="<?php echo BaseUrl;?>/tables/markalar"> Markalar</a>
                                 </li>
                                 <li>
                                     <a href="#">Onay Bekleyenler<span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
-                                            <a href="/ProjectNew/tables/bekleyenislemler">İşlemler</a>
+                                            <a href="<?php echo BaseUrl;?>/tables/bekleyenislemler">İşlemler</a>
                                         </li>
                                         <li>
-                                            <a href="/ProjectNew/tables/bekleyencihazlar">Cihazlar</a>
+                                            <a href="<?php echo BaseUrl;?>/tables/bekleyencihazlar">Cihazlar</a>
                                         </li>
                                        
                                     </ul>
@@ -117,10 +116,10 @@
                                     <a href="#">Sonlananlar<span class="fa arrow"></span></a>
                                     <ul class="nav nav-third-level">
                                         <li>
-                                            <a href="/ProjectNew/tables/bitenislemler">İşlemler</a>
+                                            <a href="<?php echo BaseUrl;?>/tables/bitenislemler">İşlemler</a>
                                         </li>
                                         <li>
-                                            <a href="/ProjectNew/tables/bitencihazlar">Cihazlar</a>
+                                            <a href="<?php echo BaseUrl;?>/tables/bitencihazlar">Cihazlar</a>
                                         </li>
                                        
                                     </ul>
@@ -130,16 +129,16 @@
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="/ProjectNew/tables/yonetici"><i class="fa fa-group fa-fw"></i> Kullanıcı Yönetimi</a>
+                            <a href="<?php echo BaseUrl;?>/tables/yonetici"><i class="fa fa-group fa-fw"></i> Kullanıcı Yönetimi</a>
                         </li>
                         <li>
-                            <a href="/ProjectNew/tables/logs"><i class="fa fa-file fa-fw"></i> Loglar</a>
+                            <a href="<?php echo BaseUrl;?>/tables/logs"><i class="fa fa-file fa-fw"></i> Loglar</a>
                         </li>
                         <li>
-                            <a href="/ProjectNew/admin/settings"><i class="fa fa-cog fa-fw"></i> Ayarlar</a>
+                            <a href="<?php echo BaseUrl;?>/admin/settings"><i class="fa fa-cog fa-fw"></i> Ayarlar</a>
                         </li>
                         <li>
-                            <a href="/ProjectNew/admin/dilek"><i class="fa fa-fax fa-fw"></i> Dilek-Şikayet</a>
+                            <a href="<?php echo BaseUrl;?>/admin/dilek"><i class="fa fa-fax fa-fw"></i> Dilek-Şikayet</a>
                         </li>
                     </ul>
                 </div>
@@ -147,4 +146,4 @@
             </div>
             <!-- /.navbar-static-side -->
         </nav>
-         <script src="/ProjectNew/js/admin/sidemenu_change.js"></script>
+         <script src="<?php echo BaseUrl;?>/js/admin/sidemenu_change.js"></script>

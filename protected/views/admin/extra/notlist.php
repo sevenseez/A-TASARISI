@@ -18,7 +18,7 @@ $name = $result[0];
                   echo $this->zaman($date);?></em>
             </span>
         </div>
-        <span ><?php echo '<a href="/ProjectNew/tables/'.
+        <span ><?php echo '<a href="'.BaseUrl.'/tables/'.
                 $data->table_type.'">'.strtoupper($data->table_type).'</a> tablosunda '
          .strtoupper($notify->activity_desc($data->activity_type)).' işlemini gerçekleştirdi...';?></span>
        

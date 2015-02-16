@@ -1,4 +1,4 @@
-<link rel="stylesheet" href='/ProjectNew/css/admin/table.css'>
+<link rel="stylesheet" href='<?php echo BaseUrl;?>/css/admin/table.css'>
 
   
 
@@ -143,8 +143,8 @@
     <!-- /#wrapper -->
 
 	
-        <script src="/ProjectNew/js/admin/cell_edit.js"></script>
-	<script src="/ProjectNew/js/admin/search.js"></script>
+        <script src="<?php echo BaseUrl;?>/js/admin/cell_edit.js"></script>
+	<script src="<?php echo BaseUrl;?>/admin/search.js"></script>
 	
 
 

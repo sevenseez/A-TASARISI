@@ -134,7 +134,7 @@ class Yonetici extends CActiveRecord
         public function getNameAvatar($id) {
             if($id=='0')
             {
-                return array('Müşteri','/ProjectNew/images/profil/default.jpg');
+                return array('Müşteri',BaseUrl.'/images/profil/default.jpg');
                 
             }
             else {
@@ -152,7 +152,7 @@ class Yonetici extends CActiveRecord
         
  
         public function getImage() {
-            $drive_path = $_SERVER['DOCUMENT_ROOT'].'/ProjectNew/images/profil/';
+            $drive_path = $_SERVER['DOCUMENT_ROOT'].BaseUrl.'/images/profil/';
             $path = Yii::app()->request->baseUrl.'/images/profil/';
             $url = $drive_path.$this->y_image;
             

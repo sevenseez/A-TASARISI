@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="/ProjectNew/css/index/login.css"/>
+<link rel="stylesheet" href="<?php echo BaseUrl;?>/css/index/login.css"/>
 
 <?php $this->beginWidget(
     'booster.widgets.TbModal',

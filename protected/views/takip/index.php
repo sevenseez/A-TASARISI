@@ -1,5 +1,5 @@
 <?php $this->layout='sade'; ?>
-<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/takip.css">
+<link rel="stylesheet" href="<?php echo BaseUrl; ?>/css/takip.css">
 <div class="jumbotron takip-box open">
   <h1>Arıza Takip Sorgulama</h1>
   <h4>Sorgu başlatmak için alttaki kutuya sicil numaranızı ya da size e-posta ile gönderilen kayit numarasını yazarak ara tuşuna basınız.</h4>
@@ -49,4 +49,4 @@
 
 	
 			
-<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/toggle_move.js"></script>
+<script src="<?php echo BaseUrl; ?>/js/toggle_move.js"></script>

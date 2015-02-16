@@ -1,7 +1,5 @@
-<?php
-$baseUrl = Yii::app()->baseUrl; 
-?>
- <link rel="stylesheet" href='<?php echo $baseUrl?>/css/admin/table.css'>
+
+ <link rel="stylesheet" href='<?php echo BaseUrl;?>/css/admin/table.css'>
 
   
 
@@ -113,8 +111,8 @@ $baseUrl = Yii::app()->baseUrl;
     <!-- /#wrapper -->
 
 	
-        <script src="<?php echo $baseUrl;?>/js/admin/cell_edit.js"></script>
-	 <script src="<?php echo $baseUrl;?>/js/admin/search.js"></script>
+        <script src="<?php echo BaseUrl;?>/js/admin/cell_edit.js"></script>
+	 <script src="<?php echo BaseUrl;?>/js/admin/search.js"></script>
 	
 
 

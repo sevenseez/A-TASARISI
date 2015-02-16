@@ -10,22 +10,16 @@
     <meta name="author" content="">
 
     <title>Yönetici Paneli</title>
-
-
-    <?php  
-        $baseUrl = Yii::app()->baseUrl; 
-       
-      ?>
     
-    <link rel="stylesheet" href='<?php echo $baseUrl?>/css/admin/admin.css'>
-    <link rel="stylesheet" href='<?php echo $baseUrl?>/css/plugins/metisMenu/metisMenu.min.css'>
-    <link rel="stylesheet" href='<?php echo $baseUrl?>/css/plugins/timeline.css'>
-    <script src="/ProjectNew/js/admin/bildirimInterval.js"></script>
+    <link rel="stylesheet" href='<?php echo BaseUrl;?>/css/admin/admin.css'>
+    <link rel="stylesheet" href='<?php echo BaseUrl;?>/css/plugins/metisMenu/metisMenu.min.css'>
+    <link rel="stylesheet" href='<?php echo BaseUrl;?>/css/plugins/timeline.css'>
+    <script src="<?php echo BaseUrl;?>/js/admin/bildirimInterval.js"></script>
    
     
-     <script src="<?php echo $baseUrl;?>/js/plugins/metisMenu/metisMenu.js"></script>
+     <script src="<?php echo BaseUrl;?>/js/plugins/metisMenu/metisMenu.js"></script>
      
-     <script src="<?php echo $baseUrl;?>/js/admin/index.js"></script>
+     <script src="<?php echo BaseUrl;?>/js/admin/index.js"></script>
 
 
 

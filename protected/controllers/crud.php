@@ -96,7 +96,7 @@ class crud {
               $count= Notify::model()->checkNotify($table);
               if($count>0){
               $cs = Yii::app()->getClientScript();
-              $cs->registerScript('ProjectNew/js/admin/cell_edit.js', 'load_this('.$count.');');
+              $cs->registerScript(BaseUrl.'/js/admin/cell_edit.js', 'load_this('.$count.');');
               }
         }
       

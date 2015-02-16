@@ -10,8 +10,8 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
         
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
-            <link rel="stylesheet" href="/ProjectNew/css/sadeLayout.css">
+	<link rel="stylesheet" href="<?php echo BaseUrl;?>/css/main.css">
+            <link rel="stylesheet" href="<?php echo BaseUrl;?>/css/sadeLayout.css">
      
 </head>
 <body>
@@ -25,9 +25,9 @@
 <footer class="sadeFooter">
  
    
-        <p>>> <a href="/ProjectNew/site">Anasayfa</a></p>
-        <p>>> <a href="/ProjectNew/takip">Cihaz Sorgulama</a></p>
-        <p>>> <a href="/ProjectNew/site/dilekSikayet">Bize Ulaşın</a></p>
+        <p>>> <a href="<?php echo BaseUrl;?>/site">Anasayfa</a></p>
+        <p>>> <a href="<?php echo BaseUrl;?>/takip">Cihaz Sorgulama</a></p>
+        <p>>> <a href="<?php echo BaseUrl;?>/site/dilekSikayet">Bize Ulaşın</a></p>
         <p>>> <a href="http://www.kocaeli.edu.tr">KOÜ </a></p>
         <p>>> <a href="http://bilgisayar.kocaeli.edu.tr">Bilgi-İşlem</a></p>
    

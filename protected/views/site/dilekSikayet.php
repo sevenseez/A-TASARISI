@@ -2,7 +2,7 @@
    ?>
 
 
-<link rel="stylesheet" href="/ProjectNew/css/dilekSikayet.css"/>
+<link rel="stylesheet" href="<?php echo BaseUrl;?>/css/dilekSikayet.css"/>
 
 <div class="container">
     <div class="row">
@@ -103,4 +103,4 @@
 </div>
 </div>
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="/ProjectNew/js/contactMap.js"></script>
+<script src="<?php echo BaseUrl;?>/js/contactMap.js"></script>

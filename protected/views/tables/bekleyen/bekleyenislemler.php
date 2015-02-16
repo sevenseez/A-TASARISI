@@ -1,8 +1,5 @@
-<?php 
-$baseUrl = Yii::app()->baseUrl; 
-?>
- <link rel="stylesheet" href='<?php echo $baseUrl?>/css/admin/table.css'>
- <link rel="stylesheet" href="<?php echo $baseUrl?>/css/admin/details.css">
+ <link rel="stylesheet" href='<?php echo BaseUrl;?>/css/admin/table.css'>
+ <link rel="stylesheet" href="<?php echo BaseUrl;?>/css/admin/details.css">
   
 
         <div id="page-wrapper">
@@ -163,9 +160,9 @@ $baseUrl = Yii::app()->baseUrl;
     <!-- /#wrapper -->
     <div id="reddetContent"></div>
 	
-        <script src="<?php echo $baseUrl;?>/js/admin/cell_edit.js"></script>
-	<script src="<?php echo $baseUrl;?>/js/admin/search.js"></script>
-        <script src="<?php echo $baseUrl?>/js/data-hide.js"></script>
+        <script src="<?php echo BaseUrl;;?>/js/admin/cell_edit.js"></script>
+	<script src="<?php echo BaseUrl;;?>/js/admin/search.js"></script>
+        <script src="<?php echo BaseUrl;?>/js/data-hide.js"></script>
 
 
         <style>.deneme {border:none;  
