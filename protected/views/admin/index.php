@@ -25,6 +25,7 @@
                                 .'<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span> '
                                 . '<div class="clearfix"></div></div>',
                                 array('admin/bildirim', 'activity_type'=>'0'));
+                             
                              ?>
                     </div>
                 </div>

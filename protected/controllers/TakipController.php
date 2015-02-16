@@ -39,6 +39,7 @@ class TakipController extends CController
                       
                       $dataArray=[];
                       $keyword = $_POST['search_box'];
+                     
                       $criteria = new CDbCriteria;
                       $criteria->condition = "sicil_no='$keyword' OR kayit_no='$keyword'";
                       $model_i = Islemler::model()->findAll($criteria);

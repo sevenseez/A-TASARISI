@@ -90,7 +90,7 @@ class BekleyenCihazlar extends CActiveRecord
 
 		$criteria=new CDbCriteria;
                 $criteria->with='cihazMarka';
-                
+               
 		$criteria->compare('cihaz_id',$this->cihaz_id);
 		$criteria->compare('cihaz_adi',$this->cihaz_adi,true);
 		$criteria->compare('cihaz_marka',$this->cihaz_marka);
